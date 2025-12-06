@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'pavan9908/jmetertester1:v1.0'
+        IMAGE_NAME = 'pavan9908/jmeter01:v1.0'
         TEST_REPO = 'https://github.com/Pavan0401-bot/AB_AS_Sampledata50users.git'
     }
 
